@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const descriptionElement = document.getElementById('description');
 
     // Replace YOUR_OPENWEATHERMAP_API_KEY with your actual API key, without quotes
-    const apiKey = 82dd722626bcdffd5cff82a6f8baeee6;
+    const apiKey = '14ab476b8e60f112e2cfe1bf51db276b';
     console.log('API Key set (should not be undefined):', apiKey);
 
     function getWeather(latitude, longitude) {
